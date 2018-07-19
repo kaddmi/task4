@@ -1,0 +1,11 @@
+C:\Users\Nastya\source\repos\Task4\Task4\bin\Debug\netcoreapp2.0\Task4.deps.json
+C:\Users\Nastya\source\repos\Task4\Task4\bin\Debug\netcoreapp2.0\Task4.runtimeconfig.json
+C:\Users\Nastya\source\repos\Task4\Task4\bin\Debug\netcoreapp2.0\Task4.runtimeconfig.dev.json
+C:\Users\Nastya\source\repos\Task4\Task4\bin\Debug\netcoreapp2.0\Task4.dll
+C:\Users\Nastya\source\repos\Task4\Task4\bin\Debug\netcoreapp2.0\Task4.pdb
+C:\Users\Nastya\source\repos\Task4\Task4\obj\Debug\netcoreapp2.0\Task4.csprojResolveAssemblyReference.cache
+C:\Users\Nastya\source\repos\Task4\Task4\obj\Debug\netcoreapp2.0\Task4.csproj.CoreCompileInputs.cache
+C:\Users\Nastya\source\repos\Task4\Task4\obj\Debug\netcoreapp2.0\Task4.AssemblyInfoInputs.cache
+C:\Users\Nastya\source\repos\Task4\Task4\obj\Debug\netcoreapp2.0\Task4.AssemblyInfo.cs
+C:\Users\Nastya\source\repos\Task4\Task4\obj\Debug\netcoreapp2.0\Task4.dll
+C:\Users\Nastya\source\repos\Task4\Task4\obj\Debug\netcoreapp2.0\Task4.pdb
