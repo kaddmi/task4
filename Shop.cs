@@ -16,7 +16,7 @@ namespace Task4
             Orders = new List<Order>();
         }
 
-        public double ShopPrice()
+        public double Payment()
         {
             double orderPrice = 0.0;
             foreach (Order ord in Orders)
@@ -24,14 +24,14 @@ namespace Task4
             return orderPrice;
         }
 
-         public double OrderPrice(string s)
+         public double Payment(string s)
          {
             double orderPrice = 0.0;
             foreach (Order ord in Orders)
                 if (ord.Customer.CustomerName == s)
                     orderPrice += ord.Prod.Price * ord.ProdQuantity;
             return orderPrice;
-         } 
+         }
 
     }
 }
