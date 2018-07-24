@@ -6,18 +6,21 @@ namespace Task4
 {
     class Order
     {
-        public Customer Customer { set; get; }
-        public Product Prod { set; get; }
-        public int ProdQuantity { set; get; }
-        public Order()
+        public Customer Cust { set; get; }
+        public string OrderName { set; get; }
+        public List<Product> Prod { set; get; }
+
+        public Order(string s)
         {
-            Customer = new Customer();
+            OrderName = s;
+            Prod = new List<Product>();
         }
-        public Order(string cs, string name, double p, int n)
+        public double Payment()
         {
-            Customer = new Customer(cs);
-            Prod = new Product(name, p);
-            ProdQuantity = n;
+            double orderPrice = 0.0;
+            foreach (Product pr in Prod)
+                orderPrice += pr.Price;
+            return orderPrice;
         }
     }
 }

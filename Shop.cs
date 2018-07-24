@@ -6,8 +6,7 @@ namespace Task4
 {
     class Shop
     {
-        public string ShopName { set; get; }
-        
+        public string ShopName { set; get; }     
         public List<Order> Orders { set; get; }
 
         public Shop(string s)
@@ -16,22 +15,18 @@ namespace Task4
             Orders = new List<Order>();
         }
 
-        public double Payment()
+        public double ShopRevenue()
         {
-            double orderPrice = 0.0;
+            double pros = 0;
             foreach (Order ord in Orders)
-                orderPrice += ord.Prod.Price * ord.ProdQuantity;
-            return orderPrice;
+            { 
+                double m = ord.Cust.Money - ord.Payment();
+                if (m > 0)
+                    pros += ord.Payment();     
+                else
+                    pros +=0;
+            }
+            return pros;
         }
-
-         public double Payment(string s)
-         {
-            double orderPrice = 0.0;
-            foreach (Order ord in Orders)
-                if (ord.Customer.CustomerName == s)
-                    orderPrice += ord.Prod.Price * ord.ProdQuantity;
-            return orderPrice;
-         }
-
     }
 }
